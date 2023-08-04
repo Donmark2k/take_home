@@ -66,7 +66,6 @@ button {
   box-shadow:
     0 5px 12px rgba(36, 34, 96, 0.5),
     0 5px 12px rgba(36, 34, 96, 0.5);
-
 }
 
 .progress-line {
@@ -74,7 +73,7 @@ button {
 }
 
 .progress-p {
-text-align: right;
+  text-align: right;
 }
 
 @media (min-width: 768px) {
@@ -82,26 +81,23 @@ text-align: right;
     display: flex;
     flex-direction: row;
     margin: 20% auto;
-    border-radius: 12px;
     width: 60% !important;
   }
-  
+
   .first_block {
-    background-color: rgb(36, 34, 96);
-    padding: 24px;
-    color: #fff;
     border-radius: 12px 0 0 12px;
   }
+
   .second_block {
-    padding: 24px;
-    background-color: #fff;
     width: 70%;
     border-radius: 0 12px 12px 0;
   }
+
   .second_block h2 {
     margin: 2px 0 48px 0;
   }
+
   .progress-line {
     width: 200px;
   }
-  }
+}
