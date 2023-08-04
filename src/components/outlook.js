@@ -1,8 +1,6 @@
 import React from 'react';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
-
-
 const Outlook = () => (
     <div className="container">
     <div className="first_block">
@@ -14,8 +12,8 @@ const Outlook = () => (
          <div className="first_row">
              <p>CHAPTER 4</p>
              <div>
-             <ProgressBar now={60} />
-             <p>6/9 Challenges</p>
+             <ProgressBar now={60} className="progress-line"/>
+             <p className="progress-p"> 6/9 Challenges</p>
 
              </div>
 
