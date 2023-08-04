@@ -40,6 +40,11 @@ margin: 18px 0 38px 0 ;
 .second_block {
   padding: 24px;
 }
+.first_row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
 .second_block h2{
   margin: 18px 0 38px 0 ;

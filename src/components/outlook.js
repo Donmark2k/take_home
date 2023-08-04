@@ -11,7 +11,7 @@ const Outlook = () => (
         <p> View all chapters ></p>
     </div>
      <div className="second_block">
-         <div>
+         <div className="first_row">
              <p>CHAPTER 4</p>
              <div>
              <ProgressBar now={60} />
